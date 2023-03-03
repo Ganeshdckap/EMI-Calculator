@@ -4,28 +4,58 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("https://cdn.dribbble.com/users/766345/screenshots/2380195/media/b4474bb315742cebda2eddbd5780a236.gif")
+    overflow-y: hidden;
+	background-image: url("https://cdn.dribbble.com/users/766345/screenshots/2380195/media/b4474bb315742cebda2eddbd5780a236.gif")
 }
 .title{
-	color: rgb(253, 207, 0);
+	/* color: rgb(255, 153, 0); */
+	text-shadow:
+-1px 0px 0px rgba(0, 0, 0, 0.973),
+1px 0px 0px rgb(0, 0, 0),
+0px -1px 0px rgb(0, 0, 0),
+0px 1px 0px rgb(0, 0, 0);color: rgb(255, 208, 0);
 	text-align: center;
 }
-
-  .box{
-	width: 450px;
-	height: 540px;
-	text-align: center;
-	margin-left: 460px;
-	background-color: #ffffff;
-	opacity: 20%;
-	border-radius: 20px;
-} 
+.box1{
+    width: 450px;
+    height: 540px;
+    text-align: center;
+    margin-left: 200px;
+    background-color: #000000;
+    opacity: 70%;
+    border-radius: 20px;
+    position: relative;
+	top: 15px;
+}
+ul.a {
+    width: 353px;
+    height: 540px;
+    font-size: large;
+    line-height: 29px;
+    list-style-position: outside;
+    margin-left: 250px;
+    position: relative;
+	bottom: 470px;
+	color: rgb(255, 255, 255);
+}
+.box {
+    width: 450px;
+    height: 540px;
+    text-align: center;
+    margin-left: 715px;
+    /* margin-right: 150px; */
+    background-color: #ffffff;
+    opacity: 20%;
+    border-radius: 20px;
+    position: relative;
+    bottom: 1080px;
+}
 .main {
 	width: 450px;
 	height: 500px;
 	text-align: center;
-	margin-left: 460px;
-	color: rgb(235, 229, 223);
+	margin-left: 710px;
+	color: rgb(255, 255, 255);
 	font-size: x-large;
 	position: absolute;
 	top: 15%;
@@ -41,10 +71,10 @@ input {
 	border-radius: 30px;
 	color: rgb(70, 70, 70);	
 }
-button{
+.Submit{
     width: 200px;
     height: 50px;
-	background-color: rgb(150, 28, 28);
+	background-color: rgb(57, 66, 143);
 	color: white;
 	font-size: 20px;
 }
