@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,70 @@
     <title>EMI Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="title">EMI CALCULATOR</h1>
         <div class="box1"></div>
-   
-            <ul class="a">
-                <H4>KEY TAKEAWAYS</H4>
-            <li>An equated monthly installment (EMI) is a fixed payment made by a borrower to a lender on a specified date of each month.</li>
-            <li>EMIs are applied to both interest and principal each month so that over a specified time period, the loan is paid off in full.</li>
-            <li>EMIs can be calculated in two ways: the flat-rate method or the reducing-balance method.</li>
-            <li>The EMI reducing-balance method generally is more favorable for borrowers, as it results in lower interest payments overall</li>
-            <li>EMIs allow borrowers the peace of mind of knowing exactly how much money they will need to pay each month toward their loan.</li>
-            </ul>
-     
-        <p>
-        <div class="box"></div>
-        <div class="main">
-        <label for="">Amount(₹):</label>
-        
-        <p>
-        <input class ="Principal"type="number" placeholder="Principal Amount" step="200"> 
-        </p>
-        <p>
-        <label for="">Interest Rate(%):</label>
-        <input class ="Interest" type="number" placeholder="Interest Rate%" step="10">
-        </p>
-        <p>
-        <label for="">Months to pay:</label>
-        <input class ="Months" type="number" placeholder="Loan Tenure" step="2"><button class="year">Yr</button>
-        </p><br>
-        <button class="Submit">Calculate</button>
 
-        <div class="table">
-            <table>
-                <th colspan="7"><h3 class="result"></h3></th>
-                <th><h3 class="diff"></h3></th>
-                <th><h3 class="total"></h3></th>
-            </table>
+        <ul class="a">
+            <H4>KEY TAKEAWAYS</H4>
+            <li>An equated monthly installment (EMI) is a fixed payment made by a borrower to a lender on a specified
+                date of each month.</li>
+            <li>EMIs are applied to both interest and principal each month so that over a specified time period, the
+                loan is paid off in full.</li>
+            <li>EMIs can be calculated in two ways: the flat-rate method or the reducing-balance method.</li>
+            <li>The EMI reducing-balance method generally is more favorable for borrowers, as it results in lower
+                interest payments overall</li>
+            <li>EMIs allow borrowers the peace of mind of knowing exactly how much money they will need to pay each
+                month toward their loan.</li>
+        </ul>
+
+
+        <div class="box">
         </div>
+        <div class="main">
+            <label for="">Amount(₹):</label>
+
+            <p>
+                <input class="Principal" type="number" placeholder="Principal Amount" step="200">
+            </p>
+
+            <label for="">Interest Rate(%):</label>
+            <p>
+                <input class="Interest" type="number" placeholder="Interest Rate%" step="10">
+            </p>
+            
+            <label for="">Months to pay:</label>
+            <button id="month" class="month">M</button>
+            <button id="year" class="year">Y</button>
+
+            <p>
+                <input class="Months" type="number" placeholder="Loan Tenure" step="2">
+            </p><br>
+
+            <button class="Submit">Calculate</button>
+
+            <div class="table">
+                <table>
+                    <th colspan="7">
+                        <h3 class="result"></h3>
+                    </th>
+                    <th>
+                        <h3 class="diff"></h3>
+                    </th>
+                    <th>
+                        <h3 class="total"></h3>
+                    </th>
+                </table>
+            </div>
         </div>
 
         <script src="script.js"></script>
 
     </div>
 </body>
+
 </html>
+
+tog
