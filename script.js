@@ -8,6 +8,11 @@ const total = document.querySelector(".total")
 const month = document.getElementById("month")
 const year = document.querySelector(".year")
 
+month.addEventListener("click", () => {
+
+  document.getElementById('month').style.backgroundColor = 'rgb(57, 66, 143)';
+  document.getElementById('year').style.backgroundColor = 'transparent';{ 
+  }
   submit.addEventListener("click", () => {
     if (principal.value !== "" && interest.value !== "" && months.value !== "") {
 
@@ -21,7 +26,7 @@ const year = document.querySelector(".year")
 
       results.innerText = "Your Monthly EMI is ₹" + emi1.toLocaleString()
 
-
+      
       let differnce1 = emi * months.value - principal.value;
       differnce1.innerText = Math.round(differnce1)
 
@@ -29,14 +34,11 @@ const year = document.querySelector(".year")
       let totalamount = Number(principal.value) + Number(differnce1)
       total.innerText = "Total Payment (Principal + Interest)₹" + Math.round(totalamount).toLocaleString()
     }
-
-    month.addEventListener("click", () => {
-
-      document.getElementById('month').style.backgroundColor = 'rgb(57, 66, 143)';
-      document.getElementById('year').style.backgroundColor = 'transparent';
+})
 
 
-  })
+
+   
 })
 
 year.addEventListener("click", () => {
