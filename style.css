@@ -15,7 +15,7 @@ body{
     -1px 0px 0px rgba(0, 0, 0, 0.973),
     1px 0px 0px rgb(0, 0, 0),
     0px -1px 0px rgb(0, 0, 0),
-    0px 1px 0px rgb(0, 0, 0);color: rgb(255, 208, 0);
+    0px 1px 0px rgb(0, 0, 0);color: rgb(255, 230, 0);
 	text-align: center;
 }
 .box1{
@@ -58,7 +58,7 @@ ul.a {
 	color: rgb(255, 255, 255);
 	font-size: x-large;
 	position: absolute;
-	top: 15%;
+	top: 11%;
     font-weight: bold;
 }
 p{
@@ -95,10 +95,14 @@ input {
     font-size: large;
 }
 th{
-  color: rgb(255, 208, 0);
+  color: rgb(255, 230, 0);
+  text-shadow:
+  -1px 0px 0px rgba(0, 0, 0, 0.973),
+  1px 0px 0px rgb(0, 0, 0),
+  0px -1px 0px rgb(0, 0, 0),
+  0px 1px 0px rgb(0, 0, 0);
   width: 150px;
   height: 150px;
-  font-size: 20px;
 }
 .touch{
     background-color: rgb(57, 66, 143);
